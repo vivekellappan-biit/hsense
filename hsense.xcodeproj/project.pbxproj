@@ -6,8 +6,59 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EAC57EAD2DCDBC8A00907A10 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EAC2DCDBC8A00907A10 /* MessageUI.framework */; };
+		EAC57EAF2DCDBC9800907A10 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EAE2DCDBC9800907A10 /* Security.framework */; };
+		EAC57EB12DCDBCA400907A10 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EB02DCDBCA400907A10 /* CoreServices.framework */; };
+		EAC57EB32DCDBCAE00907A10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EB22DCDBCAE00907A10 /* SystemConfiguration.framework */; };
+		EAC57EB72DCDBCCC00907A10 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EB62DCDBCCB00907A10 /* ImageIO.framework */; };
+		EAC57EB92DCDBCD600907A10 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EB82DCDBCD600907A10 /* LocalAuthentication.framework */; };
+		EAC57EBB2DCDBCDD00907A10 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EBA2DCDBCDD00907A10 /* AudioToolbox.framework */; };
+		EAC57EBD2DCDBCE400907A10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EBC2DCDBCE400907A10 /* QuartzCore.framework */; };
+		EAC57EBF2DCDBCEC00907A10 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EBE2DCDBCEC00907A10 /* WebKit.framework */; };
+		EAC57EC12DCDBCF400907A10 /* MetricKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EC02DCDBCF400907A10 /* MetricKit.framework */; };
+		EAC57EC22DCDBCFC00907A10 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EB42DCDBCB700907A10 /* libsqlite3.tbd */; };
+		EAC57EC62DCDC57B00907A10 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC57EB52DCDBCC100907A10 /* libc++.tbd */; };
+		EADA3D6C2DCCDF2A00A72740 /* MSAL in Frameworks */ = {isa = PBXBuildFile; productRef = EADA3D6B2DCCDF2A00A72740 /* MSAL */; };
+		EADA3D712DCCE10C00A72740 /* IntuneMAMSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADA3D702DCCE10C00A72740 /* IntuneMAMSwift.xcframework */; };
+		EADA3D722DCCE10C00A72740 /* IntuneMAMSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EADA3D702DCCE10C00A72740 /* IntuneMAMSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EADA3D742DCCE11100A72740 /* IntuneMAMSwiftStub.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADA3D602DCCDEA400A72740 /* IntuneMAMSwiftStub.xcframework */; };
+		EADA3D752DCCE11100A72740 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EADA3D602DCCDEA400A72740 /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EADA3D732DCCE10C00A72740 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EADA3D752DCCE11100A72740 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */,
+				EADA3D722DCCE10C00A72740 /* IntuneMAMSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		EA21675B2DCCBB57000B5B74 /* hsense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hsense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC57EAC2DCDBC8A00907A10 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EAC57EAE2DCDBC9800907A10 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EAC57EB02DCDBCA400907A10 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		EAC57EB22DCDBCAE00907A10 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EAC57EB42DCDBCB700907A10 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EAC57EB52DCDBCC100907A10 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EAC57EB62DCDBCCB00907A10 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EAC57EB82DCDBCD600907A10 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		EAC57EBA2DCDBCDD00907A10 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EAC57EBC2DCDBCE400907A10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAC57EBE2DCDBCEC00907A10 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EAC57EC02DCDBCF400907A10 /* MetricKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetricKit.framework; path = System/Library/Frameworks/MetricKit.framework; sourceTree = SDKROOT; };
+		EADA3D602DCCDEA400A72740 /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwiftStub.xcframework; path = "../../../../../Library/Developer/Xcode/DerivedData/hsense-ahsdliljdrccrsapccuxkkejwyff/SourcePackages/checkouts/ms-intune-app-sdk-ios/IntuneMAMSwiftStub.xcframework"; sourceTree = "<group>"; };
+		EADA3D642DCCDEB000A72740 /* IntuneMAMTelemetry.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMTelemetry.xcframework; path = "../../../../../Library/Developer/Xcode/DerivedData/hsense-ahsdliljdrccrsapccuxkkejwyff/SourcePackages/checkouts/ms-intune-app-sdk-ios/IntuneMAMTelemetry.xcframework"; sourceTree = "<group>"; };
+		EADA3D672DCCDEB500A72740 /* libIntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libIntuneMAMSwift.xcframework; path = "../../../../../Library/Developer/Xcode/DerivedData/hsense-ahsdliljdrccrsapccuxkkejwyff/SourcePackages/checkouts/ms-intune-app-sdk-ios/libIntuneMAMSwift.xcframework"; sourceTree = "<group>"; };
+		EADA3D702DCCE10C00A72740 /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwift.xcframework; path = "../../../../../Library/Developer/Xcode/DerivedData/hsense-ahsdliljdrccrsapccuxkkejwyff/SourcePackages/checkouts/ms-intune-app-sdk-ios/IntuneMAMSwift.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +87,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC57EB72DCDBCCC00907A10 /* ImageIO.framework in Frameworks */,
+				EAC57EB92DCDBCD600907A10 /* LocalAuthentication.framework in Frameworks */,
+				EAC57EC22DCDBCFC00907A10 /* libsqlite3.tbd in Frameworks */,
+				EAC57EBF2DCDBCEC00907A10 /* WebKit.framework in Frameworks */,
+				EADA3D712DCCE10C00A72740 /* IntuneMAMSwift.xcframework in Frameworks */,
+				EAC57EC12DCDBCF400907A10 /* MetricKit.framework in Frameworks */,
+				EAC57EC62DCDC57B00907A10 /* libc++.tbd in Frameworks */,
+				EAC57EBD2DCDBCE400907A10 /* QuartzCore.framework in Frameworks */,
+				EAC57EB32DCDBCAE00907A10 /* SystemConfiguration.framework in Frameworks */,
+				EAC57EB12DCDBCA400907A10 /* CoreServices.framework in Frameworks */,
+				EAC57EAF2DCDBC9800907A10 /* Security.framework in Frameworks */,
+				EADA3D742DCCE11100A72740 /* IntuneMAMSwiftStub.xcframework in Frameworks */,
+				EAC57EBB2DCDBCDD00907A10 /* AudioToolbox.framework in Frameworks */,
+				EAC57EAD2DCDBC8A00907A10 /* MessageUI.framework in Frameworks */,
+				EADA3D6C2DCCDF2A00A72740 /* MSAL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				EA21675D2DCCBB57000B5B74 /* hsense */,
+				EA21677A2DCCBEEA000B5B74 /* Frameworks */,
 				EA21675C2DCCBB57000B5B74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +125,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EA21677A2DCCBEEA000B5B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC57EC02DCDBCF400907A10 /* MetricKit.framework */,
+				EAC57EBE2DCDBCEC00907A10 /* WebKit.framework */,
+				EAC57EBC2DCDBCE400907A10 /* QuartzCore.framework */,
+				EAC57EBA2DCDBCDD00907A10 /* AudioToolbox.framework */,
+				EAC57EB82DCDBCD600907A10 /* LocalAuthentication.framework */,
+				EAC57EB62DCDBCCB00907A10 /* ImageIO.framework */,
+				EAC57EB52DCDBCC100907A10 /* libc++.tbd */,
+				EAC57EB42DCDBCB700907A10 /* libsqlite3.tbd */,
+				EAC57EB22DCDBCAE00907A10 /* SystemConfiguration.framework */,
+				EAC57EB02DCDBCA400907A10 /* CoreServices.framework */,
+				EAC57EAE2DCDBC9800907A10 /* Security.framework */,
+				EAC57EAC2DCDBC8A00907A10 /* MessageUI.framework */,
+				EADA3D672DCCDEB500A72740 /* libIntuneMAMSwift.xcframework */,
+				EADA3D702DCCE10C00A72740 /* IntuneMAMSwift.xcframework */,
+				EADA3D602DCCDEA400A72740 /* IntuneMAMSwiftStub.xcframework */,
+				EADA3D642DCCDEB000A72740 /* IntuneMAMTelemetry.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -68,6 +158,7 @@
 				EA2167572DCCBB57000B5B74 /* Sources */,
 				EA2167582DCCBB57000B5B74 /* Frameworks */,
 				EA2167592DCCBB57000B5B74 /* Resources */,
+				EADA3D732DCCE10C00A72740 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -78,6 +169,7 @@
 			);
 			name = hsense;
 			packageProductDependencies = (
+				EADA3D6B2DCCDF2A00A72740 /* MSAL */,
 			);
 			productName = hsense;
 			productReference = EA21675B2DCCBB57000B5B74 /* hsense.app */;
@@ -107,6 +199,10 @@
 			);
 			mainGroup = EA2167522DCCBB57000B5B74;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EA2167762DCCBB8B000B5B74 /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */,
+				EADA3D6F2DCCE10700A72740 /* XCRemoteSwiftPackageReference "ms-intune-app-sdk-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EA21675C2DCCBB57000B5B74 /* Products */;
 			projectDirPath = "";
@@ -143,9 +239,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hsense/hsense.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5Q76667MR;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = 2DC96B9Q8N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hsense/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -153,13 +251,19 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.7.85;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.hsense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -171,9 +275,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hsense/hsense.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5Q76667MR;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = 2DC96B9Q8N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hsense/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -181,13 +287,19 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.7.85;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.hsense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,6 +447,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA2167762DCCBB8B000B5B74 /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AzureAD/microsoft-authentication-library-for-objc";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		EADA3D6F2DCCE10700A72740 /* XCRemoteSwiftPackageReference "ms-intune-app-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoftconnect/ms-intune-app-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 20.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EADA3D6B2DCCDF2A00A72740 /* MSAL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA2167762DCCBB8B000B5B74 /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */;
+			productName = MSAL;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA2167532DCCBB57000B5B74 /* Project object */;
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.2DC96B9Q8N.com.microsoft.adalcache</string>
+		<string>group.2DC96B9Q8N.com.microsoft.intune.mam</string>
+		<string>group.com.app.hsense</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.app.hsense</string>
+		<string>$(AppIdentifierPrefix)com.microsoft.intune.mam</string>
+		<string>$(AppIdentifierPrefix)com.microsoft.adalcache</string>
+	</array>
+</dict>
+</plist>

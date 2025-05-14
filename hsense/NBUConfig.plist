@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>ADALClientId</key>
+    <string>e9134e72-b929-4b88-a44e-2dac32d9e39d</string>
+    <key>ADALAuthority</key>
+    <string>https://login.microsoftonline.com/common/</string>
+    <key>ADALRedirectUri</key>
+    <string>msauth.com.app.hsense://auth</string>
+    <key>AutoEnrollOnLaunch</key>
+    <false/>
+    <key>MAMPolicyRequired</key>
+    <false/>
+    <key>MAMTelemetryDisabled</key>
+    <false/>
+    <key>MAMDiagnosticConsoleEnabled</key>
+    <true/>
+    <key>MAMDiagnosticConsoleDisplayLevel</key>
+    <integer>3</integer>
+</dict>
+</plist> 

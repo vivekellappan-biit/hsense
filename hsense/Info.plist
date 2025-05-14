@@ -2,6 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IntuneMAMUPN</key>
+	<string></string>
+	<key>IntuneMAMAllowedAccounts</key>
+	<string>AllAccounts</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>msauthv2</string>
+		<string>msauthv3</string>
+		<string>com.app.hsense-intunemam</string>
+		<string>http</string>
+		<string>http-intunemam</string>
+		<string>https</string>
+		<string>https-intunemam</string>
+		<string>microsoft-edge-http</string>
+		<string>microsoft-edge-http-intunemam</string>
+		<string>microsoft-edge-https</string>
+		<string>microsoft-edge-https-intunemam</string>
+		<string>smart-ns</string>
+		<string>zips</string>
+		<string>lacoonsecurity</string>
+		<string>wandera</string>
+		<string>lookoutwork-ase</string>
+		<string>skycure</string>
+		<string>betteractiveshield</string>
+		<string>smsec</string>
+		<string>mvisionmobile</string>
+		<string>scmx</string>
+		<string>intunemam-mtd</string>
+		<string>mailto</string>
+		<string>ms-outlook-intunemam</string>
+		<string>msauth</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -20,6 +52,36 @@
 				</dict>
 			</array>
 		</dict>
+	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>msauth.com.app.hsense</string>
+			</array>
+		</dict>
+	</array>
+	<key>MSALRedirectUri</key>
+	<string>msauth.com.app.hsense://auth</string>
+	<key>IntuneMAMSettings</key>
+	<dict>
+		<key>ADALClientId</key>
+		<string>e9134e72-b929-4b88-a44e-2dac32d9e39c</string>
+		<key>ADALAuthority</key>
+		<string>https://login.microsoftonline.com/common/</string>
+		<key>ADALRedirectUri</key>
+		<string>msauth.com.app.hsense://auth</string>
+		<key>AutoEnrollOnLaunch</key>
+		<false/>
+		<key>MAMPolicyRequired</key>
+		<false/>
+		<key>MAMTelemetryDisabled</key>
+		<false/>
+		<key>MAMDiagnosticConsoleEnabled</key>
+		<true/>
+		<key>MAMDiagnosticConsoleDisplayLevel</key>
+		<integer>3</integer>
 	</dict>
 </dict>
 </plist>
